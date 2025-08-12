@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Romper Room — Buy In Here</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <img src="ROMPERLOGO.svg" alt="Romper Room Logo" class="logo" />
+      <h1>Buy In Here</h1>
+      <p class="tagline">Quick. Clean. Romper Room.</p>
+    </header>
+
+    <section class="buttons">
+      <a id="cashBtn" class="pay-btn cash" href="https://cash.app/$craigarmags" rel="noopener">
+        <div class="btn-left">💵</div>
+        <div class="btn-body">
+          <div class="btn-title">Cash App</div>
+          <div class="btn-sub">Open Cash App — $craigarmags</div>
+        </div>
+        <div class="btn-right">→</div>
+      </a>
+
+      <button id="zelleBtn" class="pay-btn zelle" type="button">
+        <div class="btn-left">⚡</div>
+        <div class="btn-body">
+          <div class="btn-title">Zelle</div>
+          <div class="btn-sub">craigarmags@gmail.com — tap to copy</div>
+        </div>
+        <div class="btn-right">Copy</div>
+      </button>
+
+      <div class="secondary">
+        <a id="mailtoLink" href="mailto:craigarmags@gmail.com?subject=Payment%20via%20Romper%20Room" class="link">Email to pay/send details</a>
+        <div class="small">Tip: after copying the email, open your bank's Zelle send screen and paste the email.</div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <small>Romper Room — Thanks for the buy-in. Scan once, tip twice. ♠️♥️</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
